@@ -5,7 +5,7 @@ def main():
     model = TrigramModel()
 
     # Train the model on the example corpus
-    with open("data/example_corpus.txt", "r") as f:
+    with open("../data/example_corpus.txt", "r") as f:
         text = f.read()
     model.fit(text)
 
