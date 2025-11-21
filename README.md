@@ -12,11 +12,44 @@ Welcome to the AI/ML Intern assignment! This project is designed to test your co
 
 ## Instructions
 
-1. Any changes to env should be updated in `requirements.txt`.
-2. Mention the steps to run your code in `trigram-assignment/README.md`.
-3. Feel free to make any changes to the existing code.
-4. Please document your design choices in the `evaluation.md` file. This should be a 1-page summary of the decisions you made and why you made them. And all the steps to for us to test.
-5. Please mind the second task is optional.
+# How to Run the Trigram Language Model
+
+## 1. Install dependencies
+
+pip install -r requirements.txt
+
+shell
+
+Copy code
+
+## 2. Train the model and generate text
+
+Run the provided script:
+
+python src/generate.py
+
+shell
+
+Copy code
+
+## 3. Run unit tests
+
+pytest
+
+python
+
+Copy code
+
+## 4. Use your own corpus
+
+Replace the file path in `src/generate.py`:
+
+```python
+
+with open("data/example_corpus.txt")
+
+with your file name.
+
 
 
 
