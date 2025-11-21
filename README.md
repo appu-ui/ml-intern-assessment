@@ -4,10 +4,7 @@ Welcome to the AI/ML Intern assignment! This project is designed to test your co
 
 ## Quick Start
 
-1. Clone or fork this repository.
-2. Install the required dependencies: `pip install -r requirements.txt`
-3. Open the trigram-assignment/src/ngram_model.py file and implement the TrigramModel class.
-4. Run the tests to check your implementation: `pytest trigram-assignment/tests/test_ngram.py`
+1py`
 
 
 ## Instructions
@@ -18,9 +15,7 @@ Welcome to the AI/ML Intern assignment! This project is designed to test your co
 
 pip install -r requirements.txt
 
-shell
 
-Copy code
 
 ## 2. Train the model and generate text
 
@@ -28,17 +23,12 @@ Run the provided script:
 
 python src/generate.py
 
-shell
-
-Copy code
 
 ## 3. Run unit tests
+```python
+  pytest
+```python
 
-pytest
-
-python
-
-Copy code
 
 ## 4. Use your own corpus
 
@@ -51,6 +41,3 @@ with open("data/example_corpus.txt")
 with your file name.
 
 
-
-
-For more detailed instructions, please refer to the `ASSIGNMENT.md` file.
