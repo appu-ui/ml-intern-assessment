@@ -112,14 +112,6 @@ The generation algorithm works as follows:
 6.  **Fallback Handling**\
     If a context does not exist, randomly choose another known context.
 
-### **Why probabilistic sampling?**
-
--   Produces more natural and varied text.
-
--   Prevents repetitive or deterministic outputs.
-
--   Better reflects the statistical patterns learned from training data.
-
 * * * * *
 
 **5\. Additional Design Choices**
