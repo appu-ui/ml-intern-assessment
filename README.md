@@ -6,7 +6,6 @@ Welcome to the AI/ML Intern assignment! This project is designed to test your co
 
 1py`
 
-
 ## Instructions
 
 # How to Run the Trigram Language Model
@@ -15,17 +14,15 @@ Welcome to the AI/ML Intern assignment! This project is designed to test your co
 
 pip install -r requirements.txt
 
-
-
 ## 2. Train the model and generate text
 
 Run the provided script:
 
 python src/generate.py
 
-
 ## 3. Run unit tests
-```python
+
+````python
   pytest
 ```python
 
@@ -41,3 +38,4 @@ with open("data/example_corpus.txt")
 with your file name.
 
 
+````
