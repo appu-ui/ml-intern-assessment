@@ -113,14 +113,3 @@ The generation algorithm works as follows:
     If a context does not exist, randomly choose another known context.
 
 * * * * *
-
-**5\. Additional Design Choices**
----------------------------------
-
--   No external NLP libraries were used to maintain transparency and simplicity.
-
--   The model avoids smoothing techniques (e.g., Laplace, Kneser-Ney) to focus on clear n-gram behavior.
-
--   The implementation is modular and easy to extend to higher-order n-grams or UNK vocab filtering.
-
--   The code is optimized for readability and educational value rather than raw performance.
