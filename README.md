@@ -11,21 +11,24 @@ Welcome to the AI/ML Intern assignment! This project is designed to test your co
 # How to Run the Trigram Language Model
 
 ## 1. Install dependencies
+````python
 
 pip install -r requirements.txt
+````
 
 ## 2. Train the model and generate text
 
 Run the provided script:
+````python
 
 python src/generate.py
+````
 
 ## 3. Run unit tests
 
 ````python
-  pytest
-```python
-
+  pytest tests/test_ngram.py
+````
 
 ## 4. Use your own corpus
 
