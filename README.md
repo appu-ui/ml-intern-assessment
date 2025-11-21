@@ -4,10 +4,6 @@ Welcome to the AI/ML Intern assignment! This project is designed to test your co
 
 ## Quick Start
 
-1py`
-
-## Instructions
-
 # How to Run the Trigram Language Model
 
 ## 1. Install dependencies
